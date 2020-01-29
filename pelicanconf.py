@@ -47,7 +47,7 @@ THEME = 'themes/the-theme'
 ARTICLE_ORDER_BY = 'date'
 DISPLAY_CATEGORIES_ON_MENU = False
 
-PLUGIN_PATHS = ['plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['extract_toc', 'code_include']
 
 STATIC_PATHS = [
