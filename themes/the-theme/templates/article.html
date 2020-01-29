@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title|striptags }}{% endblock %}
+{% block content %}
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+      {% include 'twitter.html' %}
+    </header>
+    {% if article.toc %}
+      <nav class="toc">
+      {{ article.toc }}
+      </nav>
+      <br/>
+      <br/>
+    {% endif %}
+    {{ article.content }}
+    </div><!-- /.entry-content -->
+    {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = '{{ DISQUS_SITENAME }}';
+        var disqus_identifier = '{{ article.url }}';
+        var disqus_url = '{{ SITEURL }}/{{ article.url }}';
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the comments.</noscript>
+    </div>
+    {% endif %}
+
+  </article>
+</section>
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript">//<![CDATA[
+//  var code_blocks = Array.prototype.slice.call(document.getElementsByClassName('highlight'));
+//  var solutions = code_blocks.filter(function(e, i, z){
+//    return (e.parentElement.firstElementChild.tagName == 'H3' || e.parentElement.firstElementChild.tagName == 'H2') &&
+//           e.parentElement.firstElementChild.firstChild.text.startsWith('Упражнение') &&
+//           e.parentElement.lastElementChild == e
+//  })
+//  for (var i in solutions)
+//  {
+//  {% if article.show_solutions == 'yes' %}
+//    solutions[i].hidden = true;
+//    if (solutions[i].previousElementSibling.tagName == 'IMG')
+//      solutions[i].parentElement.insertBefore(document.createElement('br'), solutions[i]);
+//    var a = document.createElement('a');
+//    a.innerHTML = 'Показать ответ';
+//    a.href = '#';
+//    solutions[i].parentElement.insertBefore(a, solutions[i]);
+//    a.onclick = function(e){
+//      e.target.nextSibling.hidden = false;
+//      e.target.hidden = true;
+//      e.preventDefault();
+//    };
+//  {% else %}
+//    solutions[i].remove();
+//  {% endif %}
+//  }
+//]]>
+</script>
+{% endblock %}
