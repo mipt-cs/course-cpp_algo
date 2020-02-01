@@ -54,6 +54,16 @@
 
 .. code-block:: python
 
+    # Comment
+	
+.. code-block:: c
+
+    // Comment
+
+----------
+
+.. code-block:: python
+
     while condition:
         command 1
         command 2
