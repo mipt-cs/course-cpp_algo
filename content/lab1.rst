@@ -17,6 +17,26 @@
 
 .. code-block:: python
 
+    a = 10.1
+	
+.. code-block:: c
+
+    double a = 10.1;
+
+----------
+
+.. code-block:: python
+
+    a = True
+	
+.. code-block:: c
+
+    bool a = 10;
+
+----------
+
+.. code-block:: python
+
     a = 10
 	
 .. code-block:: c
