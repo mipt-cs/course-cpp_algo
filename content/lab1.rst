@@ -79,20 +79,20 @@
 
 .. code-block:: python
 
-	if i > 0:
+	if condition1:
 		command 1
 		command 2
-	elif i < 0:
+	elif condition2:
 		command 3
 	else:
 		command 4
 		
 .. code-block:: c
 
-	if (i > 0) {
+	if (condition1) {
 		command 1;
 		command 2;
-	} else if (i < 0) {
+	} else if (condition2) {
 		command 3;
 	} else {
 		command 4;
