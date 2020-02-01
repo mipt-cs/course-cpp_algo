@@ -17,7 +17,7 @@
 
 .. code-block:: python
 
-    while condition\:
+    while condition:
         command 1
         command 2
 
