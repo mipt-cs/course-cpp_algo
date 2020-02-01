@@ -40,9 +40,32 @@
 		
 .. code-block:: c
 
-	for(int i = 0; i<n; i++){
+	for(int i=0; i<n; i++){
 		command 1;
 		command 2;
+	}
+
+----------
+
+.. code-block:: python
+
+	if i > 0:
+		command 1
+		command 2
+	elif i < 0:
+		command 3
+	else:
+		command 4
+		
+.. code-block:: c
+
+	if (i > 0) {
+		command 1;
+		command 2;
+	} else if (i < 0) {
+		command 3;
+	} else {
+		command 4;
 	}
 
 ----------
