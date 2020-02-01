@@ -22,7 +22,7 @@
         command 2
 
 
-.. code-block:: python
+.. code-block:: c
 
    while (condition) {
        command 1;                
