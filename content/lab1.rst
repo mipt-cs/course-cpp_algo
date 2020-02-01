@@ -17,6 +17,16 @@
 
 .. code-block:: python
 
+    a = 10
+	
+.. code-block:: c
+
+    int a = 10;
+
+----------
+
+.. code-block:: python
+
     while condition:
         command 1
         command 2
@@ -40,7 +50,7 @@
 		
 .. code-block:: c
 
-	for(int i=0; i<n; i++){
+	for (int i=0; i<n; i++) {
 		command 1;
 		command 2;
 	}
