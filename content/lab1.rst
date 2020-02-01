@@ -29,6 +29,20 @@
        command 1;
    }
 
+.. code-block:: python
+
+	for i in range(n):
+		command 1
+		command 2
+		
+		
+.. code-block:: c
+
+	for(int i = 0; i<n; i++){
+		command 1;
+		command 2;
+	}
+
 Принципиальные отличия Python и C++ (кратко)
 ============================================
 
