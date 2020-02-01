@@ -28,6 +28,7 @@
 Сходные синтаксические конструкции Python и С++ (кратко)
 ========================================================
 
+
 Условные конструкции if, else
 -----------------------------
 
@@ -91,8 +92,112 @@ Python и C++.
 +------------------------------+------------------------------+
 | import some_file.py          | #include <some_library.h> 	  |
 +------------------------------+------------------------------+
-| import numpy          	   | #include <iostream> 	  	  |
+| import numpy          	     | #include <iostream> 	    	  |
 +------------------------------+------------------------------+
+
+.. code-block:: python
+
+    a = 10.1
+	
+.. code-block:: c
+
+    double a = 10.1;
+
+----------
+
+.. code-block:: python
+
+    a = True
+	
+.. code-block:: c
+
+    bool a = true;
+
+----------
+
+.. code-block:: python
+
+    a = 10
+	
+.. code-block:: c
+
+    int a = 10;
+
+----------
+
+Поскольку на языке C++ необходимо самому указывать тип переменной при ее создании, стоит запомнить несколько базовых:
+	- int - целочисленный тип со знаком
+	- double - числа с плавающей точкой
+	- bool - логический тип (обратите внимание, что на языке С++ значения "true" и "false" пишутся со строчной буквы)
+Записать данные другого типа в объявленную ранее переменную невозможно.
+
+----------
+
+.. code-block:: python
+
+    # Comment
+	
+.. code-block:: c
+
+    // Comment
+
+----------
+
+.. code-block:: python
+
+    while condition:
+        command 1
+        command 2
+
+
+.. code-block:: c
+
+   while (condition) {
+       command 1;                
+       command 1;
+   }
+
+----------
+
+.. code-block:: python
+
+	for i in range(n):
+		command 1
+		command 2
+		
+		
+.. code-block:: c
+
+	for (int i=0; i<n; i++) {
+		command 1;
+		command 2;
+	}
+
+----------
+
+.. code-block:: python
+
+	if condition1:
+		command 1
+		command 2
+	elif condition2:
+		command 3
+	else:
+		command 4
+		
+.. code-block:: c
+
+	if (condition1) {
+		command 1;
+		command 2;
+	} else if (condition2) {
+		command 3;
+	} else {
+		command 4;
+	}
+
+----------
+
 
 Кроме того, нередко некоторые методы, классы и функций для разрешения конфликтов имен в C++ 
 дополнительно имеют префикс, соответсвующий пространству имен (namespace), в частности :
