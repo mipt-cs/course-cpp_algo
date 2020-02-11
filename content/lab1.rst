@@ -2,7 +2,7 @@
 #################################
 
 :date: 2020-02-05 09:00
-:status: publish
+:status: publiс
 
 .. default-role:: code
 .. contents:: Содержание
