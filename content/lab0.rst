@@ -30,4 +30,15 @@
 Участвуйте в контесте: `Sapere aude`_.
 *Контест закончится в полночь 16 февраля.*
 
+Полезные ссылки:
+
+1. `CPP Reference`_
+2. `x86 assembler opcode table`_
+3. `gdb tutorial`_
+
+В случае возникновения вопросов пишите в ejudge (там есть возможность отправить вопрос судьям)
+
 .. _`Sapere aude`: http://olymp3.vdi.mipt.ru/cgi-bin/new-register?action=209&contest_id=920007&locale_id=1
+.. _`CPP Reference`: https://en.cppreference.com/w/
+.. _`x86 assembler opcode table`: http://ref.x86asm.net/coder32.html
+.. _`gdb tutorial`: https://www.cs.cmu.edu/~gilpin/tutorial/
