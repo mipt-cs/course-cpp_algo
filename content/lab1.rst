@@ -2,6 +2,8 @@
 #################################
 
 :date: 2020-02-05 09:00
+:summary: Базовый синтаксис языка С++.
+:lecture_link: https://youtu.be/MWsfHQaUzI0
 :status: published
 
 .. default-role:: code
