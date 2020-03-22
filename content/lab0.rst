@@ -2,7 +2,7 @@
 ######################################
 
 :date: 2020-02-01 09:00
-:status:draft 
+:status: draft
 
 .. default-role:: code
 
