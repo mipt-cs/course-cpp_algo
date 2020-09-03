@@ -3,7 +3,7 @@ SFINAE (для продвинутой группы по C++)
 
 :date: 2020-05-04 00:00
 :summary: SFINAE (для продвинутой группы по C++)
-:status: published
+:status: draft
 
 .. default-role:: code
 .. contents:: Содержание

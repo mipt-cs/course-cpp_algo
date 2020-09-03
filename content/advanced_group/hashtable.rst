@@ -3,7 +3,7 @@
 
 :date: 2020-04-25 00:00
 :summary: Хеш-таблицы и хеширование (для продвинутой группы по C++)
-:status: published
+:status: draft
 
 .. default-role:: code
 .. contents:: Содержание
