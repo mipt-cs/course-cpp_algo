@@ -3,7 +3,7 @@
 
 :date: 2020-09-03 09:00
 :summary: Повторение.
-:status: draft
+:status: published
 
 .. default-role:: code
 .. contents:: Содержание
