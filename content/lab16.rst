@@ -4,6 +4,7 @@
 :date: 2020-09-03 09:00
 :summary: Повторение.
 :status: published
+:lecture_link: https://youtu.be/3s5Y5E3LtaI
 
 .. default-role:: code
 .. contents:: Содержание
