@@ -3,7 +3,7 @@
 
 :date: 2020-10-02 09:00
 :summary: Список контестов и ссылки для участия в них
-:status: draft
+:status: published
 
 .. default-role:: code
 .. contents:: Содержание
