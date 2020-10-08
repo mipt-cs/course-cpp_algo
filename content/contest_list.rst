@@ -17,4 +17,5 @@
 Повторение                     `Контест1 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29301>`_ 
 Шаблоны, классы, контейнеры    `Контест2 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29304>`_  
 Конечные автоматы              `Контест3 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29305>`_  
+Хеши                           `Контест4 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29306>`_  
 ============================== ==============================================================================
