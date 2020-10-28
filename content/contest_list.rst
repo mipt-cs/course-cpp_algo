@@ -18,4 +18,6 @@
 Шаблоны, классы, контейнеры    `Контест2 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29304>`_  
 Конечные автоматы              `Контест3 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29305>`_  
 Хеши                           `Контест4 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29306>`_  
+Повторение                     `Контест5 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29307>`_ 
+Контрольная работа 1           `Контест6 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29309>`_   
 ============================== ==============================================================================
