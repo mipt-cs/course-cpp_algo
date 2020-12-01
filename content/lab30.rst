@@ -3,7 +3,7 @@
 
 :date: 2020-12-14 09:00
 :summary: Список вопрос к осеннему зачёту.
-:status: draft
+:status: published
 
 .. default-role:: code
 .. contents:: Содержание
