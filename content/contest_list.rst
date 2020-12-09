@@ -17,6 +17,7 @@
 Двоичные деревья               `Контест7 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29308>`_   
 Графы (часть 1)                `Контест8 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29311>`_   
 Графы (часть 2)                `Контест9 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29314>`_   
+Контрольная работа 2           `Контест6 <http://judge2.vdi.mipt.ru/cgi-bin/new-client?contest_id=29315>`_   
 ============================== ==============================================================================
 
 Старые контесты
